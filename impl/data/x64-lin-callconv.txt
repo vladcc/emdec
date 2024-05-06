@@ -1,0 +1,28 @@
+# format: pass,<reg-type>,<reg-name>,<arg-num>
+pass,i,rdi,1
+pass,i,edi,1
+pass,i,rsi,2
+pass,i,esi,2
+pass,i,rdx,3
+pass,i,edx,3
+pass,i,rcx,4
+pass,i,ecx,4
+pass,i,r8,5
+pass,i,r8d,5
+pass,i,r9,6
+pass,i,r9d,6
+pass,f,xmm0,1
+pass,f,xmm1,2
+pass,f,xmm2,3
+pass,f,xmm3,4
+pass,f,xmm4,5
+pass,f,xmm5,6
+pass,f,xmm6,7
+pass,f,xmm7,8
+# format: ret,<reg-type>,<reg-name>
+ret,i,rax
+ret,i,eax
+ret,f,xmm0
+# format: stack,<base|top>,<reg-name>
+stack,base,rbp
+stack,top,rsp

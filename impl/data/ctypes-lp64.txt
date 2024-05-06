@@ -1,0 +1,10 @@
+# format: <type>,<type-regex>,<size-in-bytes>
+# NOTE: the order matters; most specific first
+f,long double,10
+f,double,8
+f,float,4
+i,[*]|size_t|long,8
+i,int|errno_t,4
+i,short,2
+i,char|bool,1
+v,void,0
